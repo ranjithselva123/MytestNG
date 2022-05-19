@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="7" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="7" name="gecko(failed)" parallel="tests">
+    <parameter name="browser" value="gecko"/>
+    <classes>
+      <class name="org.day4.sample">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.day4.sample -->
+    </classes>
+  </test> <!-- gecko(failed) -->
+  <test thread-count="7" name="ie(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="org.day4.sample">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.day4.sample -->
+    </classes>
+  </test> <!-- ie(failed) -->
+</suite> <!-- Failed suite [Suite] -->

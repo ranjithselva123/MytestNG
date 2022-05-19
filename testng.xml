@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests">
+	<test name="chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="org.day4.sample">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="gecko">
+		<parameter name="browser" value="gecko"></parameter>
+		<classes>
+			<class name="org.day4.sample">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="ie">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="org.day4.sample">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
