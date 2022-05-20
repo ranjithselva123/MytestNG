@@ -7,6 +7,7 @@ public class MyAssert {
 	@Test
 	private void username() {
 		System.out.println("username");
+		System.out.println("**");
 	}
 	@Test(groups="signup")
 	private void mobile() {
